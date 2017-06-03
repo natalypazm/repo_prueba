@@ -1,0 +1,349 @@
+/*
+Theme Name: Felicidando
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: Nataly Paz
+Author URI: https://wordpress.org/
+Description:  Plantilla
+Version: 1.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face{
+	font-family: 'LondrinaSolid';
+	src:url('css/fonts/londrina/LondrinaSolid-Regular.otf');
+}
+@font-face{
+	font-family: 'Raleway';
+	src:url('css/fonts/Raleway/Raleway-Regular.ttf');
+}
+*{
+	outline: 1px solid rgba(255,0,0,0.2);
+}
+.header{
+	color:#ffffff;
+	padding:15px;
+	background-color:#67c190;
+	font-family: 'LondrinaSolid';
+}
+.header a{
+	font-size:20px;
+	color:#ffffff;
+	padding-top:10px !important;
+	text-decoration: none;
+	display: inline-block;
+	text-align:center;
+}
+.header .col-md-4 a{
+	padding: 20px;
+}
+.header img{
+	height: 50px;
+	text-align: center;
+}
+.menu,.menu-opciones{
+	padding:20px;
+}
+.menu a{
+	color:#07685c;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration: none;
+	padding:15px;
+}
+.texto-muestra{
+	font-size: 58px;
+    position: relative;
+    bottom:700px;
+    left: 112px;
+    font-family: 'Raleway';
+    line-height:1;
+    color:#ffffff;
+}
+.texto-muestra span{
+	font-family: 'LondrinaSolid';
+	font-size:73px;
+	color:#ffc200;
+}
+.boton-header{
+	font-family: 'LondrinaSolid';
+    position: relative;
+    top: -564px;
+    left: 472px;
+    font-size: 45px;
+    padding: 9px 67px !important;
+    width: auto;
+    border-radius: 20px !important;
+    box-shadow: 0px 10px 0px #7e1421;
+    background: #d80062 !important;
+    border: 1px solid #7e1421;
+}
+.boton img{
+	display: inline-block;
+	padding-right:10px;
+}
+a{
+	color:#ffffff;
+	text-decoration:none;
+}
+a:hover{
+	color:#7e1421;
+	text-decoration:none;
+}
+.fila3{
+	background-color:#00b753 !important;
+	color:white;
+	text-align: center;
+	padding: 15px;
+	font-family: 'LondrinaSolid';
+	font-size: 20px;
+	
+}
+.fila3 h3{
+	font-size:43px;
+	text-align: left;
+}
+.botones{
+	padding-top: 20px;
+}
+.boton{
+	padding: 5px 15px;
+	border-radius:10px;
+}
+.boton a{
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+
+
+.a{	
+	font-size: 30px;
+	border:1px solid #ff002b;
+	background-color:#ff002b;
+	box-shadow: 0px 10px 0px #6c0912;
+}
+.b{
+	font-size:30px;
+	border:1px solid #ff6700;
+	background-color:#ff6700;
+	box-shadow: 0px 10px 0px #a64808;
+}
+.informacion{
+	padding:40px 0;
+	background: #f4f4f4;
+}
+.informacion h2,h4{
+	font-family: 'Raleway';
+	font-weight:bold;
+	text-align:center;
+}
+.informacion .boton{
+	margin:5% 20%;
+}
+.informacion .box1{
+	color:#fc8231
+}
+
+.informacion .box1 button{
+	background:#ff6700;
+	border: 1px solid #ff6700;
+	box-shadow: 0px 5px 0px #a64808;
+}
+.informacion .box2{
+	color:#62c4bb;
+}
+.informacion .box2 button{
+	background:#62c4bb;
+	border: 1px solid #62c4bb;
+	box-shadow: 0px 5px 0px #167c96;
+}
+.informacion .box3{
+	color:#2e8929;
+}
+.informacion .box3 button{
+	background:#2e8929;
+	border: 1px solid #2e8929;
+	box-shadow: 0px 5px 0px #38751a;
+
+}
+.sociales{
+	color:#727574;
+	 font-family: 'Raleway';
+	 font-weight:bold;
+}
+.linea{
+	width: 180px;
+    height: 4px;
+    background:#ff123a;
+    margin:10px 0;
+}
+.text-in{
+	border-radius: 100%;
+    height: auto;
+    background: #ffffff;
+    position:absolute;
+    font-family: 'Raleway';
+    top: 50px;
+    margin: 0 30%;
+    height: 130px;
+    width: 50%;
+    display: table;
+    text-align:center;
+}
+.text-in p{
+	display: table-cell;
+	vertical-align: middle;
+}
+.fila4 button{	
+	padding:5px 25px;
+}
+
+.red{
+	border:1px solid #e16c6c;
+	background-color:#e16c6c;
+	box-shadow: 0px 5px 0px #c96d6d;
+}
+.yellow{
+	border:1px solid #edbf47;
+	background-color:#edbf47;
+	box-shadow: 0px 5px 0px #e1ba53;
+}
+.green{
+	border:1px solid #6fc191;
+	background-color:#6fc191;
+	box-shadow: 0px 5px 0px #6ebf8f;
+}
+
+.purple{
+	border:1px solid #c389ce;
+	background-color:#c389ce;
+	box-shadow: 0px 5px 0px #ac7ab6;
+}
+
+.fila4,.fila5,.video{
+	padding:70px 0px;
+}
+.fila4 img{
+	z-index: -1;
+	position: relative;
+}
+.box-img{
+	background:rgba(255, 133, 154, 0.5);
+	position: relative;
+}
+
+.caja{
+	padding:50px 0px;
+}
+.banda{
+	background:#495052;
+	color: white;
+    padding: 10px;
+    margin:0;
+    text-align: center;
+    font-family: 'Raleway';
+}
+.texto-fila4{
+	background:#f9f9f9;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Raleway';
+    color:#b8b8b8;
+    font-weight:bold;
+}
+.fila5 button{
+	margin:0 19%;
+}
+/*.fila5 .caja:hover img{
+	background:yellow;
+}*/
+.imgcamp:hover{
+	background:red;
+}
+.vertodo{
+	border:1px solid #d80062;
+	background-color:#d80062;
+	box-shadow: 0px 5px 0px #80111f;
+	border-radius:20px;
+	padding: 0 45px !important;
+	font-family: 'Raleway';
+	margin:10px 0;
+}
+.video{
+	background: #fffcee;
+}
+.video h1{
+	font-size: 53px;
+	padding:5% 0 ;
+	color:#747474;
+	text-align: center;
+	font-family: 'Raleway';
+}
+.frase{
+	color:#ffffff;
+	text-align:right;
+	margin:0;
+	background: black;
+}
+/*.frase .container-fluid{
+	padding: 0;
+}
+.frase img{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height:300px;
+	position: relative;
+}*/
+.suscripcion{
+	background: #385e48;
+	color:#ffffff;
+	font-family: 'Raleway';
+}
+.suscripcion input[type=text]{
+	margin: 10px 0;
+	padding:8px;
+	border-radius:10px;
+	border:1px solid #ffffff;
+}
+.suscripcion ul li{
+	list-style:none;
+	margin-bottom:15px;
+	text-align: center;
+}
+.suscripcion ul li img{
+	height:60px;
+	margin: 0 25px;
+	margin-bottom:25px;
+	
+}
+.submit{
+	background:#ff2a13;
+	border: 1px solid #ff2a13;
+	margin-left:70px;
+	padding:0 50px;
+	font-family: 'Raleway';
+	border-radius:5px;
+}
+.submit h5{
+	margin:7px;
+}
+.text-footer span{
+	font-weight:bold;
+
+}
+footer{
+	background: #123821;
+	color:#ffffff;
+	text-align: center;
+	font-size:15px;
+	font-family: 'Raleway';
+	padding:15px 0;
+}
+footer p{
+	margin:0;
+}

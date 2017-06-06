@@ -109,13 +109,13 @@ a:hover{
 }
 .botones{
 	padding-top: 20px;
+   font-family: 'LondrinaSolid';
 }
 .boton{
 	padding: 5px 15px;
 	border-radius:10px;
 }
 .boton a{
-	font-family: 'Raleway';
 	font-weight: bold;
 }
 
@@ -299,6 +299,11 @@ a:hover{
 	height:300px;
 	position: relative;
 }*/
+.imgcamps:hover{
+	background:rgba(0,0,0,0.5);
+}
+
+
 .suscripcion{
 	background: #385e48;
 	color:#ffffff;

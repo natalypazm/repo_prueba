@@ -16,30 +16,6 @@
 	</div>
 	</div>
 </div>
-<?php
-
-// The Query
-$the_query = new WP_Query( array(
-'post_type' => 'campanas_sociales',
-	) );
-
-// The Loop
-if ( $the_query->have_posts() ) {
-	echo '<ul>';
-	while ( $the_query->have_posts() ) {
-		$the_query->the_post();
-		echo '<li>' . get_field('puntos') . the_post_thumbnail() . get_the_title() . '</li>';
-	}
-	echo '</ul>';
-	/* Restore original Post Data */
-	wp_reset_postdata();
-} else {
-	// no posts found
-}
-
-?>
-
-
 <div class="menu">
 	<div class="container-fluid">
 		<div class="row">
@@ -66,14 +42,17 @@ if ( $the_query->have_posts() ) {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="img-responsive" width="200" src="<?php bloginfo('template_directory');?>/img/felicidando.png"></a>
+      <a class="navbar-brand" href="#"><img class="img-responsive" width="00" src="<?php bloginfo('template_directory');?>/img/felicidando.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+      <ul class="nav navbar-nav navbar-right menu-opciones">
+        <li class="active"><a href="#">QUÉ ES FELICIDANDO?<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">QUÉ HACEMOS?</a></li>
+		<li><a href="#">CAMPAÑAS SOCIALES</a></li>
+		<li><a href="#">CATÁLOGO</a></li>
+		<li><a href="#">BLOG</a></li>
+		<li><a href="#">CONTÁCTANOS</a></li>
       </ul>
-      <?php wp_nav_menu(); ?>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -177,19 +156,30 @@ if ( $the_query->have_posts() ) {
 			<div class="sociales"><h2>CATÁLOGO DE COMPRAS</h2></div>
 			<div class="linea"></div>
 				<div class="col-md-3">
-				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4>
+				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br>
 				<p class="text-center">
 					<a class="boton red" href="#">¡VER PROMOCIÓN!</a>
 				</p>
 			</div>
-			<div class="col-md-3">
-				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br><button class="boton yellow"><a href="#">¡VER PROMOCIÓN!</a></button></div>
 			</div>
 			<div class="col-md-3">
-				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br><button class="boton green"><a href="#">¡VER PROMOCIÓN!</a></button></div>
+				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br>
+				<p class="text-center">
+					<a class="boton red" href="#">¡VER PROMOCIÓN!</a>
+				</p>
+				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br><button class="boton purple"><a href="#">¡VER PROMOCIÓN!</a></button></div>
+				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br>
+				<p class="text-center">
+					<a class="boton red" href="#">¡VER PROMOCIÓN!</a>
+				</p></div>
+			</div>
+			<div class="col-md-3">
+				<div class="caja"><img class="img-responsive imgcamp" src="<?php bloginfo('template_directory');?>/img/cine.jpg"><h4 class="banda">ENTRADAS PARA 4 EN CINEPLANET</h4><br><br>
+				<p class="text-center">
+					<a class="boton red" href="#">¡VER PROMOCIÓN!</a>
+				</p></div>
 			</div>
 			<p class="text-center">
 				<a class="vertodo" href="#">¡VER TODO!</a>

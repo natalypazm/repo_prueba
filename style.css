@@ -47,7 +47,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .menu,.menu-opciones{
 	padding:20px;
 }
-.menu a{
+.menu .menu-opciones li a{
 	color:#07685c;
 	font-size:15px;
 	font-weight:bold;

@@ -16,24 +16,8 @@
 	</div>
 	</div>
 </div>
-<div class="menu">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-3"><img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/felicidando.png"></div>
-			<div class="col-md-9 menu-opciones">
-				<a href="#">QUÉ ES FELICIDANDO?</a>
-				<a href="#">QUÉ HACEMOS?</a>
-				<a href="#">CAMPAÑAS SOCIALES</a>
-				<a href="#">CATÁLOGO</a>
-				<a href="#">BLOG</a>
-				<a href="#">CONTÁCTANOS</a>
-			</div>
-		</div>
-	</div>
-</div>
 
-
-<nav class="navbar navbar-default">
+<nav class="navbar menu">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -42,7 +26,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="img-responsive" width="00" src="<?php bloginfo('template_directory');?>/img/felicidando.png"></a>
+      <a class="navbar-brand" href="#">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/felicidando.png" width="230">
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right menu-opciones">

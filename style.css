@@ -21,13 +21,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	src:url('css/fonts/Raleway/Raleway-Regular.ttf');
 }
 *{
-	outline: 1px solid rgba(255,0,0,0.2);
 }
 .header{
 	color:#ffffff;
 	padding:15px;
 	background-color:#67c190;
-	font-family: 'LondrinaSolid';
+	font-family: 'LondrinaSolid', sans-serif;
 }
 .header a{
 	font-size:20px;
@@ -39,6 +38,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 .header .col-md-4 a{
 	padding: 10px;
+}
+.logo{
+    width:180px;
 }
 .header img{
     width:40px;
@@ -356,4 +358,20 @@ footer{
 }
 footer p{
 	margin:0;
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+        width:140px;
+    }
+    .header{
+        text-align: center;
+    }
+    .header div{
+        font-size:20px !important;
+    }
+    .fila3 h3
+    {
+        font-size:25px;
+    }
 }
